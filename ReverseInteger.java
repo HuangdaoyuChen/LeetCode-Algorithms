@@ -14,7 +14,7 @@ The input is assumed to be a 32-bit signed integer. Your function should return 
 
 ***/
 import java.util.*;
-class reverseInteger {
+class ReverseInteger {
     public int reverse(int x) {
         try{
             if (x >=0) {
