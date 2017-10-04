@@ -11,7 +11,7 @@ Do it through integer reverse
 
 ***/
 
-class Solution {
+class PalindromeNumber {
     public boolean isPalindrome(int x) {
         //remove negative integers and positive integers with 0 at rightmost digit 
         if (x<0 || (x!=0 && x%10==0 ))
