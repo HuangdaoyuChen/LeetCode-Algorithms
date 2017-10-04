@@ -1,5 +1,9 @@
 /***
-
+Author:     Douglas, douglas.chan.utoronto@outlook.com
+Date:       Oct 4, 2017
+Problem:    9.Palindrome Number
+Difficulty: Easy
+Source:     https://leetcode.com/problems/palindrome-number/description/
 
 Determine whether an integer is a palindrome. Do this without extra space.
 
