@@ -1,5 +1,5 @@
 # LeetCode-Algorithms
-funny and short Java implementations of LeetCode algorithm problems
+Funny and Short Java Implementations of LeetCode Algorithm Problems
 
 Difficulty: Easy
 
