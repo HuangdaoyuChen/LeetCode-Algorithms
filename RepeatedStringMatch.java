@@ -16,20 +16,21 @@ class RepeatedStringMatch {
         if (A.isEmpty())
             return -1;
         if (B.isEmpty())
-            return 0;
-        int repeatTimes =0;
-        //int MaxRepeatTimes = Math.floor();
-        while (repeatTimes  <= 10000 / A.length()) {
-            if (A.contains(B))
-                return repeatTimes;
-            else {
-                A = A + A;
-                repeatTimes += 1;   
-            }
+            return 1;
+        int repeatTimes =1;
+        String repeatedA = A;
+        
+        while (!repeatedA.contains(B)) {
+            
+            repeatedA += A;
+            if (!repeatedA.contains(B) && repeatedA.length() > B.length()) 
+                return -1;
+            repeatTimes += 1;   
+     
             
         }
-        return -1;
-              
+        return repeatTimes;
+        
         
     }
 }
