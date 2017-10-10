@@ -14,6 +14,11 @@ return 5.
 
 class LengthOfLastWord{
     public int lengthOfLastWord(String s) {
+        /*
+        s = s.trim(); //remove white space at leading and trailing ends
+        return s.length() - s.lastIndexOf(' ') -1;  
+        */
+        
         if (s.isEmpty())
             return 0;
        
